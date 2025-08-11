@@ -92,4 +92,16 @@ console.log(instructor); //fariha //printing the value of instructor which is fa
 //APIs are used to interact with the server and to perform various operations like fetching data,
 
 
-//APIS in the form ofstrings 
+//APIS in the form of objects( strings) are written with " "
+//{
+ //     "name" :"fariha",
+//       "coursename":"js 
+//       "price": "free"
+//}
+//APIs in the form of objects are written with arrays (array jisk andar object hai)
+//
+[ 
+  {},
+  {},
+  {}
+]
