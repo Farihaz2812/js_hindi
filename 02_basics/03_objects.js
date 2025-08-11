@@ -83,3 +83,44 @@ console.log(JsUser.greeting());//shows JsUser.greeting is not a function
 // use [] method when you want to access the key with a string
 
 //use[] only when u dont have another option like in symbols 
+
+
+
+
+
+
+//OUTPUT:-
+
+  //{
+  //name: 'fariha',
+  //'full name': 'fariha khan',
+  //age: 20,
+  //location: 'Aligarh',
+  //email: 'fariha@gmail.com',
+  //isLoggedIn: false,
+  //lastLoginDays: [ 'Monday', 'Saturday' ],
+  //[Symbol(key)]: 'myKey1'
+  // }
+//fariha
+//fariha
+//20
+//20
+//fariha@gmail.com
+//fariha@gmail.com
+//fariha khan
+//myKey1
+//{
+//  name: 'fariha',
+//  'full name': 'fariha khan',
+//  age: 20,
+//  location: 'Aligarh',
+//  email: 'fariha@microsoft.com',
+//  isLoggedIn: false,
+//  lastLoginDays: [ 'Monday', 'Saturday' ],
+//  [Symbol(key)]: 'myKey1'
+//}
+//Hello JS user
+//undefined
+//[Function (anonymous)]
+//Hello JS user, ${this.name}
+//undefined   //
