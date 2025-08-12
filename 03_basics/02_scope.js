@@ -93,3 +93,8 @@ addTwo(5)   //here we are accessing a function before its declaration so it will
 const addTwo = function(num){  //with declaration we have also hold in a variable
     return num + 2
 }                     ///op:-Cannot access 'addTwo' before initialization
+
+//////////////**************THIS AND ARROW FUNCTION *//////////////////
+
+
+//THIS keyword tells about the current context.
