@@ -92,3 +92,37 @@ console.log(calculateCartPrice(100,200,300,4000,500))//op:-[ 300, 4000, 500 ] , 
 //### how object is passed in a function
 
 // prob 1
+
+const user = {           
+    username: "hitesh", // This is a key-value pair in an object
+    price:199 // Another key-value pair in the object
+}
+
+function handleObject(anyobject){   // Function that takes an object as a parameter
+    // Accessing properties of the object using dot notation
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+
+}   // Calling the function with the user object
+
+handleObject(user); 
+// Output: Username is hitesh and price is 199
+
+//2Way to pass object in a function
+
+handleObject({
+      username:"sam",
+      price:399              // Passing an object directly to the function
+    username: "fariha",  // Passing an object directly to the function
+    price:399
+})
+
+
+const myNewArray = [200,400,100,600] 
+
+function returnSecondValue(getArray){
+    return getArray[1]; // Returns the second value of the array
+}
+
+
+//console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue(myNewArray));
